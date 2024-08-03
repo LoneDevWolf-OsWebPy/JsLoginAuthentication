@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primaryColor: #648c8e;
+  --secondarycolor: #253439;
+}
+
+body {
+  background: linear-gradient(
+    90deg,
+    rgba(100, 140, 142, 1) 0%,
+    rgba(37, 52, 57, 1) 100%
+  );
+  padding: 20px;
+  font-family: Lato;
+  color: #f1f1f1;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .backbtn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+header .signUp {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+header .signUp a {
+  color: #f1f1f1;
+  border: 1px solid #f1f1f1;
+  padding: 5px 15px;
+  text-decoration: none;
+}
+
+header .signUp a:hover {
+  background: #f1f1f1;
+  color: #648c8e;
+  transition: all 0.3s;
+}
+
+.main {
+  padding: 8% 40%;
+  margin: auto;
+}
+
+.main .logo {
+  margin: auto;
+  padding: 0 120px;
+}
+.main .login {
+  padding-top: 30%;
+}
+
+.main .login hr {
+  margin: 15px 0;
+  border: 0;
+  border-bottom: 1px solid #9b9999;
+  background: #999;
+}
+
+.main .login form label {
+  color: #9b9999;
+  font-size: 8pt;
+}
+
+.main .login form input {
+  color: #fff;
+  font-size: 10pt;
+  width: 100%;
+  margin-top: 10px;
+  padding: 15px 0;
+  outline: none;
+  background-color: #9b999900;
+  border: none;
+}
+
+.main .login form .password {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main .login form .password i {
+  color: #808080;
+  background-color: #9b9999;
+  padding: 8px 10px;
+}
+
+.main .login form .password i:hover {
+  background: #f1f1f1;
+  color: #648c8e;
+  transition: all 0.6s;
+  cursor: pointer;
+}
+
+.main .login form button {
+  width: 100%;
+  padding: 15px;
+  font-size: 11pt;
+  color: #aca6a6;
+  font-weight: 300;
+  background-color: #9b999949;
+  outline: none;
+  border: none;
+}
+
+.main .login form button:hover {
+  background: #f1f1f1;
+  color: #648c8e;
+  transition: all 0.6s;
+  cursor: pointer;
+}
